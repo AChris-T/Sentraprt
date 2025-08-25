@@ -6,6 +6,12 @@ import Navbar from './common/Navbar';
 import Footer from './common/Footer';
 import About from './pages/About';
 import Erp from './pages/Erp';
+import IT from './pages/IT';
+import Robots from './pages/Robots';
+import DataAnalytics from './pages/DataAnalytics';
+import CloudSolutions from './pages/CloudSolutions';
+import CybersecuritySolutions from './pages/CybersecuritySolutions';
+import SoftwareDevelopment from './pages/SoftwareDevelopment';
 
 function App() {
   return (
@@ -16,6 +22,15 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/erp" element={<Erp />} />
+        <Route path="/it-outsourcing" element={<IT />} />
+        <Route path="/robotic-process-automation-rpa" element={<Robots />} />
+        <Route path="/data-analytics" element={<DataAnalytics />} />
+        <Route path="/cloud-solutions" element={<CloudSolutions />} />
+        <Route path="/software-development" element={<SoftwareDevelopment />} />
+        <Route
+          path="/cybersecurity-solutions"
+          element={<CybersecuritySolutions />}
+        />
         {/*  
        
         <Route path="/services" element={<OurService />} />

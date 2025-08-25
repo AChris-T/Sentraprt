@@ -17,25 +17,31 @@ export default function Navbar() {
       isDropdown: true,
       dropdownItems: [
         { href: '/erp', label: 'ERP' },
-        { href: '/products/consulting', label: 'Consulting Services' },
-        { href: '/products/training', label: 'Training Programs' },
-        { href: '/products/support', label: 'Technical Support' },
+        { href: '/it-outsourcing', label: 'IT-Outsourcing' },
+        {
+          href: '/robotic-process-automation-rpa',
+          label: 'Robotic Process Automation (RPA)',
+        },
+        { href: 'data-analytics', label: 'Data-Analytics' },
+        { href: 'cloud-solutions', label: 'Cloud Solutions' },
+        { href: 'cybersecurity-solutions', label: 'Cybersecurity Solutions' },
+        { href: 'software-development', label: 'Software Development' },
       ],
     },
     {
       label: 'Sectors',
       isDropdown: true,
       dropdownItems: [
-        { href: '/sectors/healthcare', label: 'Healthcare' },
-        { href: '/sectors/finance', label: 'Finance & Banking' },
-        { href: '/sectors/education', label: 'Education' },
+        { href: '/sectors/healthcare', label: 'Financial Industry' },
+        { href: '/sectors/finance', label: 'Oil and Gas' },
+        { href: '/sectors/education', label: 'Public Sector' },
         { href: '/sectors/manufacturing', label: 'Manufacturing' },
-        { href: '/sectors/retail', label: 'Retail & E-commerce' },
+        { href: '/sectors/retail', label: 'Other Sectors' },
       ],
     },
-    { href: '/support', label: 'Support' },
+    // { href: '/support', label: 'Support' },
     { href: '/contact', label: 'Contact Us' },
-    { href: '/careers', label: 'Careers' },
+    // { href: '/careers', label: 'Careers' },
   ];
 
   useEffect(() => {
@@ -86,7 +92,7 @@ export default function Navbar() {
         <div key={index} className="relative font-work-sans dropdown-container">
           <button
             onClick={toggleFunction}
-            className="flex items-center text-black transition-colors"
+            className="flex cursor-pointer items-center text-black transition-colors"
           >
             {link.label}
             <DropDownIcon isOpen={isOpen} />
@@ -96,9 +102,13 @@ export default function Navbar() {
             <div className="absolute top-full flex flex-col gap-1 left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
               {link.dropdownItems.map((item, i) => (
                 <NavLink
+                  onClick={() => {
+                    setIsProductDropdownOpen(false);
+                    setIsSectorDropdownOpen(false);
+                  }}
                   key={i}
                   to={item.href}
-                  className="block px-4 py-2 text-[#151035] hover:bg-gray-300"
+                  className="block cursor-pointer px-4 py-2 text-[#151035] hover:bg-gray-300"
                 >
                   {item.label}
                 </NavLink>
@@ -113,6 +123,10 @@ export default function Navbar() {
       <NavLink
         key={index}
         to={link.href}
+        onClick={() => {
+          setIsProductDropdownOpen(false);
+          setIsSectorDropdownOpen(false);
+        }}
         className={`${
           link.isMain ? 'font-medium' : ''
         } hover:text-gray-700 text-[#151035] transition-colors`}
@@ -137,7 +151,7 @@ export default function Navbar() {
         <div key={index}>
           <button
             onClick={toggleFunction}
-            className="flex items-center justify-between w-full text-left text-gray-700 hover:text-gray-600"
+            className="flex items-center cursor-pointer justify-between w-full text-left text-gray-700 hover:text-gray-600"
           >
             {link.label}
             <DropDownIcon isOpen={isOpen} />
@@ -146,9 +160,13 @@ export default function Navbar() {
             <div className="ml-4 mt-2 space-y-2">
               {link.dropdownItems.map((item, i) => (
                 <NavLink
+                  onClick={() => {
+                    setIsProductDropdownOpen(false);
+                    setIsSectorDropdownOpen(false);
+                  }}
                   key={i}
                   to={item.href}
-                  className="block text-[#151035] hover:text-gray-600"
+                  className="block cursor-pointer text-[#151035] hover:text-gray-600"
                 >
                   {item.label}
                 </NavLink>
@@ -163,6 +181,10 @@ export default function Navbar() {
       <NavLink
         key={index}
         to={link.href}
+        onClick={() => {
+          setIsProductDropdownOpen(false);
+          setIsSectorDropdownOpen(false);
+        }}
         className="block text-gray-700 hover:text-gray-600 transition-colors"
       >
         {link.label}
