@@ -7,11 +7,11 @@ import Register from '../common/Register';
 
 export default function Contact() {
   return (
-    <div className="mt-30 px-4 font-work-sans md:px-10 flex-col flex gap-10 item-start justify-start ">
-      <h3 className="text-4xl md:text-7xl   mt-10  font-bold max-w-4xl items-start  text-[#151035]">
+    <div className="mt-30  font-work-sans flex-col flex gap-10 item-start justify-start ">
+      <h3 className="text-4xl md:text-7xl px-4 md:px-10   mt-10  font-bold max-w-4xl items-start  text-[#151035]">
         Contact Us{' '}
       </h3>{' '}
-      <div className="grid grid-cols-1 mt-5 md:mt-20 md:grid-cols-2  gap-5">
+      <div className="grid px-4 md:px-10 grid-cols-1 mt-5 md:mt-20 md:grid-cols-2  gap-5">
         <div className="flex flex-col gap-4 md:gap-10">
           <Solutioncards>
             <div className="flex flex-col gap-2  ">
@@ -92,8 +92,19 @@ export default function Contact() {
           </form>
         </Solutioncards>
       </div>
-      <div className="bg-[#F5F8FB]">
-        <Register />
+      <div className="w-full px-4 py-10 text-center md:px-10 flex flex-col gap-4 bg-[#F5F8FB]">
+        <h3 className="font-semibold text-[#151035] text-4xl">
+          {' '}
+          Snapnet Limited
+        </h3>
+        <h3>
+          We are a Top IT consulting firm in Nigeria, we specialize in
+          developing bespoke IT solutions, offering software development, web
+          design, cybersecurity, cloud computing, business consulting, and
+          systems integration services. Our industry-specific solutions are
+          tailored to the unique needs of discerning clients in the private and
+          public sector, with offices in Lagos and Abuja.
+        </h3>{' '}
       </div>
     </div>
   );
