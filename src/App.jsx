@@ -12,6 +12,12 @@ import DataAnalytics from './pages/DataAnalytics';
 import CloudSolutions from './pages/CloudSolutions';
 import CybersecuritySolutions from './pages/CybersecuritySolutions';
 import SoftwareDevelopment from './pages/SoftwareDevelopment';
+import Finance from './pages/Finance';
+import OilGas from './pages/OilGas';
+import PublicSector from './pages/PublicSector';
+import Manufacturing from './pages/Manufacturing';
+import Others from './pages/Others';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -31,6 +37,12 @@ function App() {
           path="/cybersecurity-solutions"
           element={<CybersecuritySolutions />}
         />
+        <Route path="/finance-solutions" element={<Finance />} />
+        <Route path="/oil-gas" element={<OilGas />} />
+        <Route path="/public-sector" element={<PublicSector />} />
+        <Route path="/manufacturing" element={<Manufacturing />} />
+        <Route path="/others" element={<Others />} />
+        <Route path="/contact-us" element={<Contact />} />
         {/*  
        
         <Route path="/services" element={<OurService />} />

@@ -32,16 +32,13 @@ export default function Navbar() {
       label: 'Sectors',
       isDropdown: true,
       dropdownItems: [
-        { href: '/sectors/healthcare', label: 'Financial Industry' },
-        { href: '/sectors/finance', label: 'Oil and Gas' },
-        { href: '/sectors/education', label: 'Public Sector' },
-        { href: '/sectors/manufacturing', label: 'Manufacturing' },
-        { href: '/sectors/retail', label: 'Other Sectors' },
+        { href: '/finance-solutions', label: 'Financial Industry' },
+        { href: '/oil-gas', label: 'Oil and Gas' },
+        { href: '/public-sector', label: 'Public Sector' },
+        { href: '/manufacturing', label: 'Manufacturing' },
+        { href: '/others', label: 'Other Sectors' },
       ],
     },
-    // { href: '/support', label: 'Support' },
-    { href: '/contact', label: 'Contact Us' },
-    // { href: '/careers', label: 'Careers' },
   ];
 
   useEffect(() => {
@@ -212,9 +209,12 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:block">
-            <button className="bg-[#048383] text-white px-6 py-2 rounded-md font-medium hover:bg-[#25b4b4] transition-colors">
+            <NavLink
+              to="/contact-us"
+              className="bg-[#048383] text-white px-6 py-2 rounded-md font-medium hover:bg-[#25b4b4] transition-colors"
+            >
               Get Started
-            </button>
+            </NavLink>
           </div>
 
           {/* Mobile Nav Toggle */}
@@ -234,9 +234,12 @@ export default function Navbar() {
             <div className="space-y-4">
               {navLinks.map((link, i) => renderMobileNavLink(link, i))}
               <div className="pt-4">
-                <button className="w-full bg-[#048383] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#25b4b4] transition-colors">
+                <NavLink
+                  to="/contact-us"
+                  className="w-full bg-[#048383] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#25b4b4] transition-colors"
+                >
                   Get Started
-                </button>
+                </NavLink>
               </div>
             </div>
           </div>
