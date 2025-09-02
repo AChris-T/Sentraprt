@@ -154,7 +154,7 @@ export default function Navbar() {
             <DropDownIcon isOpen={isOpen} />
           </button>
           {isOpen && (
-            <div className="ml-4 mt-2 space-y-2">
+            <div className="ml-4 mt-2 space-y-5">
               {link.dropdownItems.map((item, i) => (
                 <NavLink
                   onClick={() => {
@@ -163,7 +163,7 @@ export default function Navbar() {
                   }}
                   key={i}
                   to={item.href}
-                  className="block cursor-pointer text-[#151035] hover:text-gray-600"
+                  className="block  cursor-pointer text-[#151035] hover:text-gray-600"
                 >
                   {item.label}
                 </NavLink>
@@ -182,7 +182,7 @@ export default function Navbar() {
           setIsProductDropdownOpen(false);
           setIsSectorDropdownOpen(false);
         }}
-        className="block text-gray-700 hover:text-gray-600 transition-colors"
+        className="block  text-gray-700 hover:text-gray-600 transition-colors"
       >
         {link.label}
       </NavLink>

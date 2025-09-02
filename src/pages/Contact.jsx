@@ -22,12 +22,11 @@ export default function Contact() {
                 </h3>
               </div>
               <h3 className="text-gray-600">
-                Lagos Office (HQ): 17 Charles Ifeanyi Street, Off Adebayo
-                Doherty, Lekki Phase 1, Lagos, Nigeria.
+                No 14, Pat Olatunji St,Command Road, Ipaja, Lagos.
               </h3>
             </div>
           </Solutioncards>
-          <Solutioncards>
+          {/*    <Solutioncards>
             <div className="flex flex-col gap-2  ">
               <div className="flex gap-2  items-center">
                 <img src={location} alt="" className="w-10 h-10 object-cover" />
@@ -40,8 +39,7 @@ export default function Contact() {
                 Transportation, Abuja, Nigeria.
               </h3>
             </div>
-          </Solutioncards>
-
+          </Solutioncards> */}
           <Solutioncards>
             <div className="flex flex-col gap-2  ">
               <div className="flex gap-2  items-center">
@@ -52,7 +50,6 @@ export default function Contact() {
             </div>
           </Solutioncards>
         </div>
-
         <Solutioncards>
           <form className="flex flex-col gap-4">
             <h3 className="text-4xl w-full flex items-center justify-center text-[#151035] font-semibold">

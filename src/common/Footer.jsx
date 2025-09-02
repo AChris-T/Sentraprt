@@ -45,10 +45,7 @@ export default function Footer() {
           <h3 className="text-lg text-[#151035] font-semibold">Contact Us</h3>
           <div className="flex flex-col gap-2">
             <h3>
-              17 Charles Ifeanyi Street, Lekki Phase 1, Lagos Nigeria 2nd Floor
-              suite 9 (Right Wing). Sinoki House, plot 770, Opp. Samuel
-              Ademulegun Avenue, Before Ministry of Transportation, CBD, Abuja,
-              Nigeria.
+             No 14, Pat Olatunji St,Command Road, Ipaja, Lagos.
             </h3>
             <h3>info@snapnetsolutions.com</h3>
           </div>

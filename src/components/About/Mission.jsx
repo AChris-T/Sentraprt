@@ -143,6 +143,20 @@ export default function Mission() {
           </li>
         </ul>
       </div>
+      <div className="mt-20 flex w-full items-start flex-col gap-4 ">
+        <h3 className="text-3xl font-bold text-start text-[#151035]">
+          Our Capability
+        </h3>
+        <ul className="list-disc flex flex-col gap-2 mt-2 list-inside">
+          <li>Bussiness Process Modeling & Optimization</li>
+          <li>IT Services</li>
+          <li>Cloud Solutions</li>
+          <li>Cybersecurity</li>
+          <li>Vertical Solutions</li>
+          <li>Data Analytics & Business Intelligence</li>
+          <li>Software Development</li>
+        </ul>
+      </div>
     </div>
   );
 }
