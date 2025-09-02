@@ -199,9 +199,9 @@ export default function Navbar() {
     >
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div>
+          <NavLink to={'/'}>
             <img src={logo} alt="logo" className="w-40 h-auto" />
-          </div>
+          </NavLink>
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center space-x-8 font-medium text-[#151035]">

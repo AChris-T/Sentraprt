@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router';
 
 export default function Register() {
   return (
@@ -8,12 +9,18 @@ export default function Register() {
       </h3>
       <div className="flex justify-between items-center w-full ">
         <div className="flex w-full items-center justify-center gap-4 mt-6">
-          <button className="bg-[#048383] text-white px-5 md:px-14 py-4 rounded-md font-medium hover:bg-[#25b4b4] cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+          <NavLink
+            to={'contact-us'}
+            className="bg-[#048383] text-white px-5 md:px-14 py-4 rounded-md font-medium hover:bg-[#25b4b4] cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+          >
             Get Started
-          </button>
-          <button className="border-1 border-gray-200 text-black px-5 md:px-14 py-4 rounded-md font-medium hover:bg-[#048383] hover:text-white cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+          </NavLink>
+          <NavLink
+            to={'contact-us'}
+            className="border-1 border-gray-200 text-black px-5 md:px-14 py-4 rounded-md font-medium hover:bg-[#048383] hover:text-white cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+          >
             Call an Agent
-          </button>
+          </NavLink>
         </div>
       </div>{' '}
     </div>

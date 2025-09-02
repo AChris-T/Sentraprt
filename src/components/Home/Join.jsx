@@ -1,5 +1,6 @@
 import React from 'react';
 import { MarkedIcon, PracticalIcon, StarIcon } from '../../assets/icons';
+import { NavLink } from 'react-router';
 
 export default function Join() {
   return (
@@ -49,9 +50,12 @@ export default function Join() {
         </div>
       </div>
       <div className="mt-12 flex justify-center w-full max-w-3xl px-4">
-        <button className="bg-[#048383] hover:bg-[#25b4b4] text-white font-medium px-6 py-3 rounded-md w-full md:w-auto transition-colors">
+        <NavLink
+          to={'contact-us'}
+          className="bg-[#048383] hover:bg-[#25b4b4] text-white font-medium px-6 py-3 rounded-md w-full md:w-auto transition-colors"
+        >
           Register now
-        </button>
+        </NavLink>
       </div>
     </div>
   );

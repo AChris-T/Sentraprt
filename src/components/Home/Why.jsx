@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { CommerIcon } from '../../assets/icons';
+import { NavLink } from 'react-router';
 
 export default function Why() {
   const scrollContainerRef = useRef(null);
@@ -154,9 +155,12 @@ export default function Why() {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <button className="bg-[#048383] text-white px-8 py-3 rounded-md font-medium hover:bg-[#25b4b4] cursor-pointer transition-colors text-lg">
+          <NavLink
+            to={'/contact-us'}
+            className="bg-[#048383] text-white px-8 py-3 rounded-md font-medium hover:bg-[#25b4b4] cursor-pointer transition-colors text-lg"
+          >
             Join Our Success Stories
-          </button>
+          </NavLink>
         </div>
       </div>
 
