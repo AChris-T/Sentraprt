@@ -4,8 +4,8 @@ import { NavLink } from 'react-router';
 
 export default function Join() {
   return (
-    <div className="w-full font-work-sans flex items-center flex-col justify-center py-20 bg-[#F5F8FB]">
-      <h3 className="text-4xl md:text-7xl  font-bold max-w-4xl items-center text-center text-[#151035]">
+    <div className="w-full  font-work-sans flex items-center flex-col justify-center py-20 bg-[#F5F8FB]">
+      <h3 className="text-4xl md:text-7xl max-w-7xl mx-auto  font-bold items-center text-center text-[#151035]">
         Join an unstoppable community
       </h3>
       <p className="text-gray-600 mt-4 text-center max-w-2xl px-4">

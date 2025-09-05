@@ -10,7 +10,7 @@ import { NavLink } from 'react-router';
 
 export default function Footer() {
   return (
-    <div className="font-work-sans">
+    <div className="font-work-sans max-w-7xl mx-auto">
       <div className="grid py-20  items-start gap-10 text-gray-600 px-4 md:px-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col gap-2">
           <img
@@ -44,9 +44,7 @@ export default function Footer() {
         <div className="flex flex-col gap-3 mt-3">
           <h3 className="text-lg text-[#151035] font-semibold">Contact Us</h3>
           <div className="flex flex-col gap-2">
-            <h3>
-             No 14, Pat Olatunji St,Command Road, Ipaja, Lagos.
-            </h3>
+            <h3>No 14, Pat Olatunji St,Command Road, Ipaja, Lagos.</h3>
             <h3>info@snapnetsolutions.com</h3>
           </div>
         </div>

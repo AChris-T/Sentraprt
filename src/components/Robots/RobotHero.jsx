@@ -3,8 +3,8 @@ import React from 'react';
 export default function RobotHero() {
   return (
     <div className="flex bg-[#F5F8FB] px-4 md:px-10  flex-col gap-2 pt-5 pb-16 md:py-16 font-work-sans">
-      <div className="flex justify-between items-center">
-        <div className="max-w-7xl flex-col gap-8 flex">
+      <div className="flex max-w-7xl mx-auto  justify-between items-center">
+        <div className="max-w-5xl flex-col text-center items-center justify-center gap-8 flex">
           <div className="relative overflow-hidden">
             <h3 className="text-4xl md:text-7xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
               Optimize Operations with Intelligent Robotic Process Automation{' '}

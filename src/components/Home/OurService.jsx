@@ -9,7 +9,7 @@ import CourseCard from '../../ui/Cards/CourseCard';
 
 export default function OurService() {
   return (
-    <div className="md:mt-[-100px] font-work-sans flex flex-col gap-10">
+    <div className="md:mt-[-100px] max-w-7xl mx-auto font-work-sans flex flex-col gap-10">
       <div className="flex justify-center  ">
         <h3 className="text-4xl md:text-7xl  font-bold max-w-4xl items-center text-center text-[#151035]">
           Turn Your Passion into Success!

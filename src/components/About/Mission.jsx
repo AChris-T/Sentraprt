@@ -3,7 +3,7 @@ import Card from '../../ui/Cards/Card';
 
 export default function Mission() {
   return (
-    <div className="w-full font-work-sans flex items-center flex-col justify-center py-5 md:py-20 ">
+    <div className="w-full max-w-7xl mx-auto font-work-sans flex items-center flex-col justify-center py-5 md:py-20 ">
       <h3 className="text-3xl w-full lg:text-7xl  font-bold max-w-4xl items-center text-center text-[#151035]">
         More About Sentraport.
       </h3>

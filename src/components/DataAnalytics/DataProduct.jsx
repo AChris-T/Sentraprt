@@ -10,7 +10,7 @@ export default function DataProduct() {
       <h3 className="text-4xl md:text-7xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Our Products
       </h3>
-      <div className="grid lg:grid-cols-3 gap-5 mt-10 ">
+      <div className="grid max-w-7xl mx-auto lg:grid-cols-3 gap-5 mt-10 ">
         <CourseCard height={'h-full'}>
           <div>
             <img src={dataAl} alt="" className="w-20 h-20 " />

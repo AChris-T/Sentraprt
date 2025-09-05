@@ -31,7 +31,7 @@ export default function Technologies() {
   ];
 
   return (
-    <div className="px-4 md:px-10 w-full flex font-work-sans flex-col justify-center items-center gap-20 py-10">
+    <div className="px-4  max-w-7xl mx-auto md:px-10 w-full flex font-work-sans flex-col justify-center items-center gap-20 py-10">
       <h3 className="text-3xl md:text-5xl text-center font-bold text-[#151035] transition-all duration-700 ease-in-out transform">
         Digital Banking Transformation Drivers
       </h3>

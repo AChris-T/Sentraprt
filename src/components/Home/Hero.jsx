@@ -38,9 +38,9 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-2 pt-5 pb-16 md:py-16 font-work-sans">
+    <div className="flex flex-col justify-center mb-10 md:mb-40 items-center text-center max-w-7xl mx-auto px-4 gap-2 pt-5 pb-16 md:py-16 font-work-sans">
       <div className="max-w-3xl flex-col gap-8 flex">
-        <div className="relative overflow-hidden">
+        <div className="relative z-40 overflow-hidden">
           <h3
             className={`text-4xl md:text-7xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ${
               fade ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
@@ -70,7 +70,7 @@ export default function Hero() {
             {subTexts[index]}
           </h3>
         </div>
-        <div className="flex space-x-2 mt-4">
+        <div className="flex items-center justify-center space-x-2 mt-4">
           {headlines.map((_, i) => (
             <div
               key={i}
@@ -82,8 +82,8 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="flex justify-between w-full items-start">
-        <div className="flex gap-4 mt-6">
+      <div className="flex   justify-center md:items-center w-full items-start">
+        <div className="flex gap-4 items-center w-full mt-6 justify-center">
           <NavLink
             to={'contact-us'}
             className="bg-[#048383] text-white px-5 md:px-10 py-2 rounded-md font-medium hover:bg-[#25b4b4] cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
@@ -92,16 +92,18 @@ export default function Hero() {
           </NavLink>
           <NavLink
             to={'contact-us'}
-            className="border-1 border-gray-200 text-black px-5 md:px-10 py-2 rounded-md font-medium hover:bg-[#048383] hover:text-white cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+            className="border-1 z-40 border-gray-200 text-black px-5 md:px-10 py-2 rounded-md font-medium hover:bg-[#048383] hover:text-white cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
           >
             Call an Agent
           </NavLink>
         </div>
-        <img
-          src={mat}
-          alt=""
-          className="-mt-30 object-cover hidden lg:block h-[300px] transition-transform duration-500 hover:scale-105"
-        />
+        <div className="absolute right-32">
+          <img
+            src={mat}
+            alt=""
+            className="-mt-30 object-cover hidden lg:block h-[300px] transition-transform duration-500 hover:scale-105"
+          />
+        </div>
       </div>
 
       <style jsx>{`

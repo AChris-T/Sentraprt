@@ -4,7 +4,7 @@ import Computer from '../../assets/images/computer.json';
 
 export default function Improvement() {
   return (
-    <div className="px-4 md:px-10 w-full flex font-work-sans  flex-col  justify-center items-center gap-20 py-10">
+    <div className="px-4 md:px-10 max-w-7xl mx-auto w-full flex font-work-sans  flex-col  justify-center items-center gap-20 py-10">
       <div className="w-full flex">
         <div className="hidden lg:flex flex-1 justify-center">
           {' '}

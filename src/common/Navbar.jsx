@@ -86,7 +86,10 @@ export default function Navbar() {
           : toggleSectorDropdown;
 
       return (
-        <div key={index} className="relative font-work-sans dropdown-container">
+        <div
+          key={index}
+          className="relative  font-work-sans dropdown-container"
+        >
           <button
             onClick={toggleFunction}
             className="flex cursor-pointer items-center text-black transition-colors"
@@ -148,7 +151,7 @@ export default function Navbar() {
         <div key={index}>
           <button
             onClick={toggleFunction}
-            className="flex items-center cursor-pointer justify-between w-full text-left text-gray-700 hover:text-gray-600"
+            className="flex  items-center cursor-pointer justify-between w-full text-left text-gray-700 hover:text-gray-600"
           >
             {link.label}
             <DropDownIcon isOpen={isOpen} />
@@ -191,13 +194,13 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed font-work-sans py-3 top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed  font-work-sans py-3 top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-[#F5F8FB] backdrop-blur-md shadow-lg border-b border-gray-200'
           : 'bg-white'
       }`}
     >
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl  px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <NavLink to={'/'}>
             <img src={logo} alt="logo" className="w-40 h-auto" />
