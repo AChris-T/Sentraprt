@@ -22,7 +22,7 @@ export default function Contact() {
                     alt=""
                     className="w-10 h-10 object-cover"
                   />
-                  <h3 className="text-2xl font-semibold text-[#151035]">
+                  <h3 className="text-2xl font-medium text-[#151035]">
                     Address
                   </h3>
                 </div>
@@ -49,9 +49,7 @@ export default function Contact() {
               <div className="flex flex-col gap-2  ">
                 <div className="flex gap-2  items-center">
                   <img src={Email} alt="" className="w-10 h-10 object-cover" />
-                  <h3 className="text-2xl font-semibold text-[#151035]">
-                    Email
-                  </h3>
+                  <h3 className="text-2xl font-medium text-[#151035]">Email</h3>
                 </div>
                 <h3 className="text-gray-600">info@snapnetsolutions.com</h3>
               </div>
@@ -59,40 +57,38 @@ export default function Contact() {
           </div>
           <Solutioncards>
             <form className="flex flex-col gap-4">
-              <h3 className="text-4xl w-full flex items-center justify-center text-[#151035] font-semibold">
+              <h3 className="text-2xl w-full flex items-center justify-center text-[#151035] font-semibold">
                 General Inquiries
               </h3>
               <div className="flex flex-col  gap-1">
-                <label className="text-[#151035] font-medium">Fullname</label>
+                <label className="text-[#151035] ">Fullname</label>
                 <input
-                  className="border-gray-600 border-[1.5px] px-2 h-[40px] rounded-md focus:outline-none"
+                  className="border-gray-200 border-[1.5px] px-2 h-[40px] rounded-md focus:outline-none"
                   type="text"
                   placeholder="Enter your fullname"
                 />
               </div>
               <div className="flex flex-col  gap-1">
-                <label className="text-[#151035] font-medium">
-                  Work Email{' '}
-                </label>
+                <label className="text-[#151035] ">Work Email </label>
                 <input
-                  className="border-gray-600 border-[1.5px] px-2 h-[40px] rounded-md focus:outline-none"
+                  className="border-gray-200 border-[1.5px] px-2 h-[40px] rounded-md focus:outline-none"
                   type="text"
                   placeholder="Enter your  Work Email "
                 />
               </div>
               <div className="flex flex-col  gap-1">
-                <label className="text-[#151035] font-medium">
+                <label className="text-[#151035] ">
                   How can we assist you?{' '}
                 </label>
                 <textarea
                   rows={6}
                   cols={5}
-                  className="border-gray-600 border-[1.5px] px-2 py-3  rounded-md focus:outline-none"
+                  className="border-gray-200 border-[1.5px] px-2 py-3  rounded-md focus:outline-none"
                   type="text"
                   placeholder="Enter Your messages "
                 />
               </div>
-              <button className="w-full bg-[#048383] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#25b4b4] transition-colors">
+              <button className="w-full bg-[#048383] cursor-pointer text-white px-6 py-2 rounded-lg font-medium hover:bg-[#25b4b4] transition-colors">
                 Submit
               </button>
             </form>
@@ -101,7 +97,7 @@ export default function Contact() {
       </div>
       <div className="w-full  px-4 py-10 text-center md:px-10 bg-[#F5F8FB]">
         <div className="max-w-7xl mx-auto flex flex-col gap-4 ">
-          <h3 className="font-semibold text-[#151035] text-4xl">
+          <h3 className="font-semibold text-[#151035] text-2xl">
             {' '}
             Snapnet Limited
           </h3>

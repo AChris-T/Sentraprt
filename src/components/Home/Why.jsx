@@ -41,8 +41,6 @@ export default function Why() {
         'The team at Sentraport is incredibly professional and knowledgeable. They delivered our project on time and exceeded expectations.',
     },
   ];
-
-  // Auto-scroll functionality
   useEffect(() => {
     const scrollContainer = scrollContainerRef.current;
     if (!scrollContainer) return;
@@ -89,9 +87,8 @@ export default function Why() {
   return (
     <div className="w-full py-20 bg-[#F5F8FB]">
       <div className="max-w-7xl mx-auto px-4">
-        {/* Main Heading */}
         <div className="text-center mb-16">
-          <h3 className="text-4xl md:text-6xl font-bold text-[#151035] mb-4">
+          <h3 className="text-2xl md:text-4xl font-bold text-[#151035] mb-4">
             Why Organizations love us?
           </h3>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -99,10 +96,7 @@ export default function Why() {
             to say about working with Sentraport.
           </p>
         </div>
-
-        {/* Horizontal Scrollable Testimonials */}
         <div className="relative">
-          {/* Scroll Indicators */}
           <div className="w-full  flex justify-center items-center mb-6">
             <div className="flex space-x-2">
               <div className="w-2 h-2 bg-[#048383] rounded-full animate-pulse"></div>
@@ -123,7 +117,7 @@ export default function Why() {
             style={{
               scrollbarWidth: 'none',
               msOverflowStyle: 'none',
-              maxWidth: 'calc(300px * 3 + 2rem)',
+              maxWidth: 'calc(350px * 3 + 2rem)',
             }}
           >
             {testimonials.map((testimonial, index) => (
@@ -152,8 +146,6 @@ export default function Why() {
             ))}
           </div>
         </div>
-
-        {/* Call to Action */}
         <div className="text-center mt-16">
           <NavLink
             to={'/contact-us'}

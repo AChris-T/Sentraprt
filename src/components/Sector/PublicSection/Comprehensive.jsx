@@ -33,7 +33,7 @@ export default function Comprehensive() {
   return (
     <div className="px-4  max-w-7xl mx-auto md:px-10 w-full flex font-work-sans flex-col justify-center items-center gap-20 py-10">
       <div className="flex flex-col gap-5 items-center text-center">
-        <h3 className="text-3xl md:text-5xl text-center font-bold text-[#151035] transition-all duration-700 ease-in-out transform">
+        <h3 className="text-2xl md:text-4xl text-center font-bold text-[#151035] transition-all duration-700 ease-in-out transform">
           Ensure Success For Your Agency With A Comprehensive Approach{' '}
         </h3>
         <p className="text-gray-600">
@@ -55,7 +55,7 @@ export default function Comprehensive() {
               className={`flex-shrink-0 px-6 py-3 text-sm md:text-base font-medium transition-colors duration-200
                 ${
                   activeTab === tab.id
-                    ? 'text-[#151035] font-bold border-b-2 border-[#151035]'
+                    ? 'text-[#151035] font-bold '
                     : 'text-gray-600 hover:text-[#151035]'
                 }`}
             >

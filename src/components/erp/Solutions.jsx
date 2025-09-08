@@ -14,15 +14,44 @@ import { ArrowIcon } from '../../assets/icons';
 export default function Solutions() {
   return (
     <div className="px-4 max-w-7xl mx-auto md:px-10 flex font-work-sans flex-col justify-center items-center gap-5 py-10">
-      <h3 className="text-4xl md:text-7xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-2xl md:text-4xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Our Key Solutions{' '}
       </h3>
       <div className="grid mt-10 gap-4 w-full grid-cols-1 lg:grid-cols-2">
         <Solutioncards>
           <div className="flex items-start gap-1 ">
+            <img
+              src={dynamiccentral}
+              alt=""
+              className="w-30 hidden md:flex h-30"
+            />
+            <div className="flex flex-col gap-3 mt-5">
+              <h3 className="text-xl font-semibold text-[#151035]">
+                Dynamics 365 Business Central
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Dynamics 365 Business Central is a cloud-based business
+                application platform that combines components of CRM and ERP,
+                along with productivity applications and artificial intelligence
+                tools for maximum flexibility and extensibility.
+              </p>
+              <NavLink
+                to={'/erp'}
+                className="flex items-center gap-2 hover:underline  font-medium"
+              >
+                Learn More{' '}
+                <h3 className="">
+                  <ArrowIcon />
+                </h3>
+              </NavLink>
+            </div>
+          </div>
+        </Solutioncards>
+        <Solutioncards>
+          <div className="flex items-start gap-1 ">
             <img src={dynamic} alt="" className="w-40 hidden md:flex h-40" />
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Dynamics 365 Human Resources
               </h3>
               <p className="text-gray-600 text-sm">
@@ -48,7 +77,7 @@ export default function Solutions() {
           <div className="flex  items-start gap-5 md:gap-10 ">
             <img src={micro} alt="" className="w-36 hidden md:flex h-36 mt-3" />
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Dynamics 365 finance{' '}
               </h3>
               <p className="text-gray-600 text-sm">
@@ -75,7 +104,7 @@ export default function Solutions() {
           <div className="flex  items-start gap-5 md:gap-10 ">
             <img src={Net} alt="" className="w-36 hidden md:flex h-36 mt-3" />
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Power Apps
               </h3>
               <p className="text-gray-600 text-sm">
@@ -106,7 +135,7 @@ export default function Solutions() {
               className="w-36 hidden md:flex h-36 mt-3"
             />
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Dynamics 365 Customer Service{' '}
               </h3>
               <p className="text-gray-600 text-sm">
@@ -132,7 +161,7 @@ export default function Solutions() {
           <div className="flex  items-start gap-5 md:gap-14 ">
             <img src={Bi} alt="" className="w-30 hidden md:flex h-30 mt-3" />
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Power Bi{' '}
               </h3>
               <p className="text-gray-600 text-sm">
@@ -159,7 +188,7 @@ export default function Solutions() {
           <div className="flex  items-start gap-5 md:gap-5 ">
             <img src={SAP} alt="" className="w-40 hidden md:flex h-40 mt-3" />
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Power Automation{' '}
               </h3>
               <p className="text-gray-600 text-sm">
@@ -182,35 +211,7 @@ export default function Solutions() {
             </div>
           </div>
         </Solutioncards>
-        <Solutioncards>
-          <div className="flex items-start gap-1 ">
-            <img
-              src={dynamiccentral}
-              alt=""
-              className="w-30 hidden md:flex h-30"
-            />
-            <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
-                Dynamics 365 Business Central
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Dynamics 365 Business Central is a cloud-based business
-                application platform that combines components of CRM and ERP,
-                along with productivity applications and artificial intelligence
-                tools for maximum flexibility and extensibility.
-              </p>
-              <NavLink
-                to={'/erp'}
-                className="flex items-center gap-2 hover:underline  font-medium"
-              >
-                Learn More{' '}
-                <h3 className="">
-                  <ArrowIcon />
-                </h3>
-              </NavLink>
-            </div>
-          </div>
-        </Solutioncards>
+
         <Solutioncards>
           <div className="flex  items-start gap-5 md:gap-14 ">
             <div className="w-[400px]  hidden md:flex">
@@ -221,7 +222,7 @@ export default function Solutions() {
               />
             </div>
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 SAP Business ByDesign
               </h3>
               <p className="text-gray-600 text-sm">
@@ -253,7 +254,7 @@ export default function Solutions() {
               />
             </div>
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 SAP Business One
               </h3>
               <p className="text-gray-600 text-sm">
@@ -286,7 +287,7 @@ export default function Solutions() {
               />
             </div>
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 SAP S/4 HANA
               </h3>
               <p className="text-gray-600 text-sm">

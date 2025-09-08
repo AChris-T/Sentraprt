@@ -17,7 +17,7 @@ export default function Improvement() {
         </div>
         <div className="flex-1 gap-3 flex flex-col">
           <h3 className="font-bold text-[#151035]">MICROSOFT DYNAMICS ERP</h3>
-          <h3 className="text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+          <h3 className="text-xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
             Improve Your Business Performance Everyday
           </h3>
           <h3 className="  transition-all duration-700 ease-in-out transform delay-100 ">
@@ -64,7 +64,7 @@ export default function Improvement() {
         </div>
         <div className="flex-1 gap-3 flex flex-col">
           <h3 className="font-bold text-[#151035]">NETSUITE</h3>
-          <h3 className="text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+          <h3 className="text-xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
             Accelerate Business Performance Using The World’s Most Deployed
             Cloud ERP Solution{' '}
           </h3>

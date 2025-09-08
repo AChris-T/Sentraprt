@@ -4,13 +4,13 @@ import Solutioncards from '../../ui/Cards/Solutioncards';
 export default function Solutions() {
   return (
     <div className="px-4  max-w-7xl mx-auto md:px-10 flex flex-col justify-center items-center gap-5 py-10">
-      <h3 className="text-4xl md:text-7xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-2xl md:text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Our Key Solutions
       </h3>
       <div className="grid mt-10 gap-4 w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Microsoft Office 365{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -23,7 +23,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Enterprise Mobility + Security
             </h3>
             <p className="text-gray-600 text-sm">
@@ -35,7 +35,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">Azure </h3>
+            <h3 className="text-xl font-semibold text-[#151035]">Azure </h3>
             <p className="text-gray-600 text-sm">
               It is a cloud computing service created by Microsoft for building,
               testing, deploying, and managing applications and services through
@@ -45,7 +45,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]"> Zebra </h3>
+            <h3 className="text-xl font-semibold text-[#151035]"> Zebra </h3>
             <p className="text-gray-600 text-sm">
               Zebra builds enterprise-level data capture and automatic
               identification solutions that provide businesses with operational
@@ -55,7 +55,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]"> Power BI</h3>
+            <h3 className="text-xl font-semibold text-[#151035]"> Power BI</h3>
             <p className="text-gray-600 text-sm">
               Power BI is a suite of business analytics tools to analyze data
               and share insights and provides a 360-degree view for business
@@ -66,7 +66,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Microsoft’s 365
             </h3>
             <p className="text-gray-600 text-sm">
@@ -79,7 +79,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">Polycom </h3>
+            <h3 className="text-xl font-semibold text-[#151035]">Polycom </h3>
             <p className="text-gray-600 text-sm">
               Polycom is the leader in video, voice, and content solutions,
               building several technology solutions that can help your
@@ -89,7 +89,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               {' '}
               HCMatrix{' '}
             </h3>
@@ -102,7 +102,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               MasterRecruit
             </h3>
             <p className="text-gray-600 text-sm">
@@ -115,7 +115,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Share Point
             </h3>
             <p className="text-gray-600 text-sm">
@@ -127,7 +127,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">Sophos</h3>
+            <h3 className="text-xl font-semibold text-[#151035]">Sophos</h3>
             <p className="text-gray-600 text-sm">
               Sophos develops IT security products for communication endpoint,
               encryption, network security, email security, mobile security and
@@ -137,7 +137,7 @@ export default function Solutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Huawei Cloud
             </h3>
             <p className="text-gray-600 text-sm">

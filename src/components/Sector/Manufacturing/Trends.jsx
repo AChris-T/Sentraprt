@@ -33,7 +33,7 @@ export default function Trends() {
   return (
     <div className="px-4 max-w-7xl mx-auto  md:px-10 w-full flex font-work-sans flex-col justify-center items-center gap-20 py-10">
       <div className="flex flex-col gap-4 text-center">
-        <h3 className="text-3xl md:text-5xl text-center font-bold text-[#151035] transition-all duration-700 ease-in-out transform">
+        <h3 className="text-2xl md:text-4xl text-center font-bold text-[#151035] transition-all duration-700 ease-in-out transform">
           IT Technologies And Trends In Manufacturing{' '}
         </h3>
         <p className="text-gray-600 text-center">

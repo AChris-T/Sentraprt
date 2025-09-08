@@ -4,7 +4,7 @@ import Solutioncards from '../../ui/Cards/Solutioncards';
 export default function Approach() {
   return (
     <div className="px-4  max-w-7xl mx-auto md:px-10 flex flex-col justify-center items-center gap-5 py-10">
-      <h3 className="text-4xl md:text-7xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-2xl md:text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Our Approach
       </h3>
       <p className="max-w-4xl text-center text-gray-600">
@@ -17,7 +17,7 @@ export default function Approach() {
       <div className="grid mt-10 gap-4 w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Comprehensive Risk Assessment{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -31,7 +31,7 @@ export default function Approach() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Tailored Security Solutions{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -45,7 +45,7 @@ export default function Approach() {
         </Solutioncards>{' '}
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Regulatory Compliance{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -56,7 +56,7 @@ export default function Approach() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               End User Security Awareness Training{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -70,7 +70,7 @@ export default function Approach() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Vulnerability Assessment and Penetration Testing{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -83,7 +83,7 @@ export default function Approach() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Corporate Espionage Prevention/Insider Threat Mitigation:{' '}
             </h3>
             <p className="text-gray-600 text-sm">

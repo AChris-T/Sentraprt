@@ -4,7 +4,7 @@ import Solutioncards from '../../../ui/Cards/Solutioncards';
 export default function PublicStory() {
   return (
     <div className="px-4  max-w-7xl mx-auto md:px-10 flex font-work-sans flex-col justify-center items-center gap-5 py-10">
-      <h3 className="text-4xl md:text-7xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-2xl md:text-4xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Success Stories
       </h3>
       <p className="text-gray-600 max-w-5xl text-center ">
@@ -17,7 +17,7 @@ export default function PublicStory() {
         <Solutioncards>
           <div className="flex items-start gap-1 ">
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Department of Petroleum Resources{' '}
               </h3>
               <p className="text-gray-600 text-sm">
@@ -34,7 +34,7 @@ export default function PublicStory() {
         <Solutioncards>
           <div className="flex items-start gap-1 ">
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Federal Road Maintenance Agency
               </h3>
               <p className="text-gray-600 text-sm">
@@ -49,7 +49,7 @@ export default function PublicStory() {
         <Solutioncards>
           <div className="flex items-start gap-1 ">
             <div className="flex flex-col gap-3 mt-5">
-              <h3 className="text-2xl font-semibold text-[#151035]">
+              <h3 className="text-xl font-semibold text-[#151035]">
                 Nigeria LNG Limited
               </h3>
               <p className="text-gray-600 text-sm">

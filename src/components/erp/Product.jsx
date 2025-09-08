@@ -8,7 +8,7 @@ export default function Product() {
   return (
     <div className="bg-[#F5F8FB] px-4 md:px-10   py-10">
       <div className="max-w-7xl mx-auto flex flex-col justify-center items-center gap-5">
-        <h3 className="text-4xl md:text-7xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+        <h3 className="text-2xl md:text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
           Our Products
         </h3>
         <p className="px-4 lg:px-[180px] text-gray-600 text-center">
@@ -25,7 +25,7 @@ export default function Product() {
             <div>
               <img src={dataAl} alt="" className="w-20 h-20 " />
               <div className="px-4 flex flex-col gap-3">
-                <h3 className="text-[#151035] text-2xl font-medium">
+                <h3 className="text-[#151035] text-xl font-medium">
                   Business Process Modelling{' '}
                 </h3>
                 <p className="text-gray-600">
@@ -40,7 +40,7 @@ export default function Product() {
             <div>
               <img src={gear} alt="" className="w-20 h-20 " />
               <div className="px-4 flex flex-col gap-3">
-                <h3 className="text-[#151035] text-2xl font-medium">
+                <h3 className="text-[#151035] text-xl font-medium">
                   Business Process Optimization
                 </h3>
                 <p className="text-gray-600">
@@ -55,7 +55,7 @@ export default function Product() {
             <div>
               <img src={direction} alt="" className="w-20 h-20 " />
               <div className="px-4 flex flex-col gap-3">
-                <h3 className="text-[#151035] text-2xl font-medium">ERP</h3>
+                <h3 className="text-[#151035] text-xl font-medium">ERP</h3>
                 <p className="text-gray-600">
                   Integrate business processes and allow quick decision making
                   and customer engagement in real-time backed by adequate

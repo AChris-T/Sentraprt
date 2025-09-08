@@ -3,7 +3,7 @@ import React from 'react';
 export default function Machine() {
   return (
     <div className="w-full h-full flex flex-col gap-5  justify-center  mt-10">
-      <h3 className="text-2xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         With The Deployment Of IP-Addressable Devices On The Shop Floor, Plant
         Machines Can Now Communicate With One Another Without Human Interaction.
       </h3>

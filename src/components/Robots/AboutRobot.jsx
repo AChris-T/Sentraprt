@@ -4,7 +4,7 @@ import Solutioncards from '../../ui/Cards/Solutioncards';
 export default function AboutRobot() {
   return (
     <div className="w-full max-w-7xl mx-auto font-work-sans flex items-center flex-col justify-center py-5 md:py-20 ">
-      <h3 className="text-3xl w-full lg:text-7xl  font-bold max-w-4xl items-center text-center text-[#151035]">
+      <h3 className="text-2xl w-full lg:text-4xl  font-bold max-w-4xl items-center text-center text-[#151035]">
         What is Robotic Process Automation?{' '}
       </h3>
       <p className="text-gray-600 mt-4 text-center max-w-6xl px-4">
@@ -21,7 +21,7 @@ export default function AboutRobot() {
       <div className="w-full  md:px-10 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 mt-10 px-4">
         <Solutioncards>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Data Entry and Validation{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -35,7 +35,7 @@ export default function AboutRobot() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Compliance and Regulatory Reporting{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -49,7 +49,7 @@ export default function AboutRobot() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Accounts Payable and Receivable
             </h3>
             <p className="text-gray-600 text-sm">
@@ -63,7 +63,7 @@ export default function AboutRobot() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Customer Onboarding and KYC{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -78,7 +78,7 @@ export default function AboutRobot() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Reconciliation and Financial Close Processes{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -92,7 +92,7 @@ export default function AboutRobot() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Claims and Settlement Processing{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -107,7 +107,7 @@ export default function AboutRobot() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Fraud Detection and Prevention{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -121,7 +121,7 @@ export default function AboutRobot() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Reporting and Analytics{' '}
             </h3>
             <p className="text-gray-600 text-sm">

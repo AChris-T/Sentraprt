@@ -9,7 +9,7 @@ export default function ITServices() {
   return (
     <div className="bg-[#F5F8FB] px-4 md:px-10   py-10">
       <div className=" flex flex-col justify-center items-center gap-5  max-w-7xl mx-auto ">
-        <h3 className="text-4xl md:text-7xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+        <h3 className="text-2xl md:text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
           Our Services
         </h3>
         <div className="grid lg:grid-cols-3 gap-5 mt-10 ">
@@ -17,7 +17,7 @@ export default function ITServices() {
             <div>
               <img src={Cloud} alt="" className="w-20 h-20 " />
               <div className="px-4 flex flex-col gap-3">
-                <h3 className="text-[#151035] text-2xl font-medium">
+                <h3 className="text-[#151035] text-xl font-medium">
                   Cloud Services
                 </h3>
                 <p className="text-gray-600">
@@ -33,7 +33,7 @@ export default function ITServices() {
             <div>
               <img src={gear} alt="" className="w-20 h-20 " />
               <div className="px-4 flex flex-col gap-3">
-                <h3 className="text-[#151035] text-2xl font-medium">
+                <h3 className="text-[#151035] text-xl font-medium">
                   Cybersecurity{' '}
                 </h3>
                 <p className="text-gray-600">
@@ -49,7 +49,7 @@ export default function ITServices() {
             <div>
               <img src={dataBackup} alt="" className="w-20 h-20 " />
               <div className="px-4 flex flex-col gap-3">
-                <h3 className="text-[#151035] text-2xl font-medium">
+                <h3 className="text-[#151035] text-xl font-medium">
                   Data Backup and Recovery
                 </h3>
                 <p className="text-gray-600">
@@ -64,7 +64,7 @@ export default function ITServices() {
             <div>
               <img src={networking} alt="" className="w-20 h-20 " />
               <div className="px-4 flex flex-col gap-3">
-                <h3 className="text-[#151035] text-2xl font-medium">
+                <h3 className="text-[#151035] text-xl font-medium">
                   Network Management
                 </h3>
                 <p className="text-gray-600">
@@ -81,7 +81,7 @@ export default function ITServices() {
             <div>
               <img src={HelpDesk} alt="" className="w-20 h-20 " />
               <div className="px-4 flex flex-col gap-3">
-                <h3 className="text-[#151035] text-2xl font-medium">
+                <h3 className="text-[#151035] text-xl font-medium">
                   Help Desk Support
                 </h3>
                 <p className="text-gray-600">

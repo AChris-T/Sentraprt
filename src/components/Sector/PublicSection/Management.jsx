@@ -3,7 +3,7 @@ import React from 'react';
 export default function Management() {
   return (
     <div className="w-full h-full flex flex-col gap-5  justify-center  mt-10">
-      <h3 className="text-2xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Deliver An Intelligent, Omni-Channel Service Experience
       </h3>
       <h3>

@@ -6,7 +6,7 @@ export default function RobotHero() {
       <div className="flex max-w-7xl mx-auto  justify-between items-center">
         <div className="max-w-5xl flex-col text-center items-center justify-center gap-8 flex">
           <div className="relative overflow-hidden">
-            <h3 className="text-4xl md:text-7xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+            <h3 className="text-4xl md:text-6xl font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
               Optimize Operations with Intelligent Robotic Process Automation{' '}
             </h3>
           </div>

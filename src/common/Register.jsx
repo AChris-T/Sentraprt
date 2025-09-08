@@ -4,7 +4,7 @@ import { NavLink } from 'react-router';
 export default function Register() {
   return (
     <div className="px-4 md:px-10 flex flex-col justify-center items-center gap-5 py-10">
-      <h3 className="text-4xl max-w-[900px] md:text-7xl text-center  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-2xl max-w-[900px] md:text-4xl text-center  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Begin your journey with us today{' '}
       </h3>
       <div className="flex justify-between items-center w-full ">

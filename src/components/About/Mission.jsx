@@ -4,19 +4,19 @@ import Card from '../../ui/Cards/Card';
 export default function Mission() {
   return (
     <div className="w-full max-w-7xl mx-auto font-work-sans flex items-center flex-col justify-center py-5 md:py-20 ">
-      <h3 className="text-3xl w-full lg:text-7xl  font-bold max-w-4xl items-center text-center text-[#151035]">
+      <h3 className="text-2xl w-full lg:text-4xl  font-bold max-w-4xl items-center text-center text-[#151035]">
         More About Sentraport.
       </h3>
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10">
         <Card>
-          <h3 className="text-[#151035] text-2xl md:text-3xl font-semibold ">
+          <h3 className="text-[#151035] text-2xl  font-semibold ">
             Our Mission
           </h3>
           <p className="my-4">
             Our mission is to connect organizations to premium IT solutions that
             meet their specific needs.
           </p>
-          <h3 className="text-[#151035] text-2xl md:text-3xl font-semibold ">
+          <h3 className="text-[#151035] text-2xl font-semibold ">
             What Makes Us Unique
           </h3>
           <p className="mt-3">
@@ -32,7 +32,7 @@ export default function Mission() {
           </p>
         </Card>
         <Card>
-          <h3 className="text-[#151035] text-2xl md:text-3xl font-semibold ">
+          <h3 className="text-[#151035] text-2xl  font-semibold ">
             Our Strengths
           </h3>
           <p className="mt-3">
@@ -62,7 +62,7 @@ export default function Mission() {
           </ul>
         </Card>
         <Card>
-          <h3 className="text-[#151035] text-2xl md:text-3xl font-semibold ">
+          <h3 className="text-[#151035] text-2xl  font-semibold ">
             Our Vision
           </h3>
           <p className="mt-3">
@@ -82,7 +82,7 @@ export default function Mission() {
         </Card>
         <Card>
           <div className="flex flex-col gap-4">
-            <h3 className="text-[#151035] text-2xl md:text-3xl font-semibold ">
+            <h3 className="text-[#151035] text-2xl  font-semibold ">
               Our Focus
             </h3>
             <p className="text-balck">
@@ -103,7 +103,7 @@ export default function Mission() {
         </Card>
       </div>
       <div className="mt-20 flex w-full items-start flex-col gap-4 ">
-        <h3 className="text-3xl font-bold text-start text-[#151035]">
+        <h3 className="text-2xl font-bold text-start text-[#151035]">
           QUALITY POLICY STATEMENT
         </h3>
         <p className="mt-3">
@@ -144,7 +144,7 @@ export default function Mission() {
         </ul>
       </div>
       <div className="mt-20 flex w-full items-start flex-col gap-4 ">
-        <h3 className="text-3xl font-bold text-start text-[#151035]">
+        <h3 className="text-2xl font-bold text-start text-[#151035]">
           Our Capability
         </h3>
         <ul className="list-disc flex flex-col gap-2 mt-2 list-inside">

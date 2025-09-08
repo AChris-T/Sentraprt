@@ -17,7 +17,7 @@ export default function StartCloud() {
         </div>
         <div className="flex-1 gap-3 flex flex-col">
           <h3 className="font-bold text-[#151035]">POLYCOM</h3>
-          <h3 className="text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+          <h3 className="text-2xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
             Get Started With Video Collaboration Solutions
           </h3>
           <h3 className="  transition-all duration-700 ease-in-out transform delay-100 ">
@@ -51,7 +51,7 @@ export default function StartCloud() {
         </div>
         <div className="flex-1 gap-3 flex flex-col">
           <h3 className="font-bold text-[#151035]">ZEBRA TECHNOLOGY</h3>
-          <h3 className="text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+          <h3 className="text-2xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
             Enterprise-Level Data Capture And Automatic Identification Solutions
           </h3>
           <h3 className="  transition-all duration-700 ease-in-out transform delay-100 ">

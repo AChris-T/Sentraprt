@@ -8,13 +8,13 @@ import Aiauto from '../../assets/images/AIAutomation.json';
 export default function SoftSolutions() {
   return (
     <div className="px-4  max-w-7xl mx-auto md:px-10 flex flex-col justify-center items-center gap-5 py-10">
-      <h3 className="text-4xl md:text-7xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-2xl md:text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Our Key Solutions
       </h3>
       <div className="grid mt-10 gap-4 w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">HCMatrix </h3>
+            <h3 className="text-xl font-semibold text-[#151035]">HCMatrix </h3>
             <p className="text-gray-600 text-sm">
               HCMatrix is a human capital management system integrated,
               cloud-based solution that is amazingly easy to use, affordable,
@@ -24,7 +24,7 @@ export default function SoftSolutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Bid Automate
             </h3>
             <p className="text-gray-600 text-sm">
@@ -37,7 +37,7 @@ export default function SoftSolutions() {
         </Solutioncards>{' '}
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]"> HCMatrix</h3>
+            <h3 className="text-xl font-semibold text-[#151035]"> HCMatrix</h3>
             <p className="text-gray-600 text-sm">
               HCMatrix Recruit was developed by Snapnet Nigeria Limited because
               of the strong desire to make the recruitment process transparent
@@ -64,7 +64,7 @@ export default function SoftSolutions() {
             <h3 className="text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
               Get The Perfect Match For The Job!
             </h3>
-            <h3 className="  transition-all duration-700 ease-in-out transform delay-100 ">
+            <h3 className="transition-all duration-700 ease-in-out transform delay-100 ">
               HCMatrix Recruit is a Nigerian product, developed in Nigeria by
               Snapnet Nigeria Limited It was developed because of the strong
               desire to make the recruitment process not only more measured but

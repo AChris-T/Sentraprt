@@ -4,7 +4,7 @@ import Solutioncards from '../../ui/Cards/Solutioncards';
 export default function CyberSolutions() {
   return (
     <div className="px-4  max-w-7xl mx-auto md:px-10 flex flex-col justify-center items-center gap-5 py-10">
-      <h3 className="text-4xl md:text-7xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
+      <h3 className="text-2xl md:text-4xl  font-bold text-[#151035] transition-all duration-700 ease-in-out transform ">
         Our Solutions
       </h3>
       <p className="max-w-4xl text-center text-gray-600">
@@ -19,7 +19,7 @@ export default function CyberSolutions() {
       <div className="grid mt-10 gap-4 w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Microsoft Azure{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -32,7 +32,7 @@ export default function CyberSolutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">
+            <h3 className="text-xl font-semibold text-[#151035]">
               Check Point{' '}
             </h3>
             <p className="text-gray-600 text-sm">
@@ -45,7 +45,7 @@ export default function CyberSolutions() {
         </Solutioncards>{' '}
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">SOPOHS </h3>
+            <h3 className="text-xl font-semibold text-[#151035]">SOPOHS </h3>
             <p className="text-gray-600 text-sm">
               IT security products have become as complex as the networks
               they’re trying to secure. Sophos develops products for
@@ -56,7 +56,7 @@ export default function CyberSolutions() {
         </Solutioncards>
         <Solutioncards>
           <div className="flex flex-col gap-3 mt-5">
-            <h3 className="text-2xl font-semibold text-[#151035]">Thales </h3>
+            <h3 className="text-xl font-semibold text-[#151035]">Thales </h3>
             <p className="text-gray-600 text-sm">
               Thales provides your organization with security and trust in data
               wherever data is created, shared or stored without impacting
