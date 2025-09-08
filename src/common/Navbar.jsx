@@ -76,7 +76,7 @@ export default function Navbar() {
 
   const renderNavLink = (link, index) => {
     if (link.isDropdown) {
-      const isOpen =
+      const isOpenDropdown =
         link.label === 'Products & Services'
           ? isProductDropdownOpen
           : isSectorDropdownOpen;
@@ -86,19 +86,16 @@ export default function Navbar() {
           : toggleSectorDropdown;
 
       return (
-        <div
-          key={index}
-          className="relative  font-work-sans dropdown-container"
-        >
+        <div key={index} className="relative font-work-sans dropdown-container">
           <button
             onClick={toggleFunction}
             className="flex cursor-pointer items-center text-black transition-colors"
           >
             {link.label}
-            <DropDownIcon isOpen={isOpen} />
+            <DropDownIcon isOpen={isOpenDropdown} />
           </button>
 
-          {isOpen && (
+          {isOpenDropdown && (
             <div className="absolute top-full flex flex-col gap-1 left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
               {link.dropdownItems.map((item, i) => (
                 <NavLink
@@ -138,7 +135,7 @@ export default function Navbar() {
 
   const renderMobileNavLink = (link, index) => {
     if (link.isDropdown) {
-      const isOpen =
+      const isOpenDropdown =
         link.label === 'Products & Services'
           ? isProductDropdownOpen
           : isSectorDropdownOpen;
@@ -151,22 +148,23 @@ export default function Navbar() {
         <div key={index}>
           <button
             onClick={toggleFunction}
-            className="flex  items-center cursor-pointer justify-between w-full text-left text-gray-700 hover:text-gray-600"
+            className="flex items-center cursor-pointer justify-between w-full text-left text-gray-700 hover:text-gray-600"
           >
             {link.label}
-            <DropDownIcon isOpen={isOpen} />
+            <DropDownIcon isOpen={isOpenDropdown} />
           </button>
-          {isOpen && (
+          {isOpenDropdown && (
             <div className="ml-4 mt-2 space-y-5">
               {link.dropdownItems.map((item, i) => (
                 <NavLink
                   onClick={() => {
                     setIsProductDropdownOpen(false);
                     setIsSectorDropdownOpen(false);
+                    setIsOpen(false); // ✅ close mobile menu
                   }}
                   key={i}
                   to={item.href}
-                  className="block  cursor-pointer text-[#151035] hover:text-gray-600"
+                  className="block cursor-pointer text-[#151035] hover:text-gray-600"
                 >
                   {item.label}
                 </NavLink>
@@ -184,8 +182,9 @@ export default function Navbar() {
         onClick={() => {
           setIsProductDropdownOpen(false);
           setIsSectorDropdownOpen(false);
+          setIsOpen(false); // ✅ close mobile menu
         }}
-        className="block  text-gray-700 hover:text-gray-600 transition-colors"
+        className="block text-gray-700 hover:text-gray-600 transition-colors"
       >
         {link.label}
       </NavLink>
@@ -194,13 +193,13 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed  font-work-sans py-3 top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed font-work-sans py-3 top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-[#F5F8FB] backdrop-blur-md shadow-lg border-b border-gray-200'
           : 'bg-white'
       }`}
     >
-      <div className="mx-auto max-w-7xl  px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <NavLink to={'/'}>
             <img src={logo} alt="logo" className="w-40 h-auto" />
@@ -239,6 +238,7 @@ export default function Navbar() {
               <div className="pt-4">
                 <NavLink
                   to="/contact-us"
+                  onClick={() => setIsOpen(false)} // ✅ close on "Get Started"
                   className="w-full bg-[#048383] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#25b4b4] transition-colors"
                 >
                   Get Started
