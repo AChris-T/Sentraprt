@@ -31,10 +31,11 @@ export default function Footer() {
         <div className="flex flex-col gap-3 mt-3">
           <h3 className="text-lg text-[#151035] font-medium">Quick Links</h3>
           <div className="flex flex-col gap-2">
-            <NavLink href={'/'}>Home</NavLink>
-            <NavLink href={'/about'}>About Us</NavLink>
-            <NavLink href={'/'}>Support</NavLink>
-            <NavLink href={'/'}>Contact Us</NavLink>
+            <NavLink to={'/'}>Home</NavLink>
+            <NavLink to={'/about'}>About Us</NavLink>
+            <NavLink to={'/erp'}>Product & Service</NavLink>
+            <NavLink to={'/finance-solutions'}>Sectors</NavLink>
+            <NavLink to={'/contact-us'}>Contact Us</NavLink>
           </div>
         </div>
         <div className="flex flex-col gap-3 mt-3">
