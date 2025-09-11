@@ -1,3 +1,4 @@
+import BussinessOptimiztion from '../components/Home/BussinessOptimiztion';
 import Hero from '../components/Home/Hero';
 import Join from '../components/Home/Join';
 import OurService from '../components/Home/OurService';
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="px-4 md:px-10">
         <Hero />
         <OurService />
+        <BussinessOptimiztion />
       </div>
       <Why />
       <div className="px-4 md:px-10"></div>
